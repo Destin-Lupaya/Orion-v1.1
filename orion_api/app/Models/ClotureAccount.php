@@ -14,7 +14,7 @@ class ClotureAccount extends Model
      *
      * @var string[]
      */
-    protected $fillable = [
+    protected $fillable = [ 
         'amount_usd',
         'amount_cdf',
         'sender_id',

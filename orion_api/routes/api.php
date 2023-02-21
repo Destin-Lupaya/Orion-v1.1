@@ -40,7 +40,7 @@ Route::post('/user/login', [UsersController::class, 'login']);
  */
 Route::resource('/users', UsersController::class);
 
-
+ 
 /*
 |------------------------------------------------------------
 |API Routes for Users operation
